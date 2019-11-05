@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BlogApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BlogApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.shaneen.blog.blog.html">com.shaneen.blog.blog</a> &gt; BlogApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.444s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.444s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>11:17:38.774 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:17:38.828 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:17:38.899 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.shaneen.blog.blog.BlogApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:17:38.951 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.shaneen.blog.blog.BlogApplicationTests], using SpringBootContextLoader
+11:17:38.959 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.shaneen.blog.blog.BlogApplicationTests]: class path resource [com/shaneen/blog/blog/BlogApplicationTests-context.xml] does not exist
+11:17:38.960 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.shaneen.blog.blog.BlogApplicationTests]: class path resource [com/shaneen/blog/blog/BlogApplicationTestsContext.groovy] does not exist
+11:17:38.961 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.shaneen.blog.blog.BlogApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:17:38.964 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.shaneen.blog.blog.BlogApplicationTests]: BlogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:17:39.055 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.shaneen.blog.blog.BlogApplicationTests]
+11:17:39.337 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Owner\Documents\LC101\blog\build\classes\java\main\com\shaneen\blog\blog\BlogApplication.class]
+11:17:39.343 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.shaneen.blog.blog.BlogApplication for test class com.shaneen.blog.blog.BlogApplicationTests
+11:17:39.568 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.shaneen.blog.blog.BlogApplicationTests]: using defaults.
+11:17:39.569 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+11:17:39.614 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4bbc3593, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6518390d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c97c725, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@37e253c1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1dd8e803, org.springframework.test.context.transaction.TransactionalTestExecutionListener@392c6ae4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6b502c0b, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@4e0916fb, org.springframework.test.context.event.EventPublishingTestExecutionListener@144b67c9, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@4e6a54ee, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2430195c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@22086def, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6d322348, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@71e3d724, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@55bdcabd]
+11:17:39.626 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1f6e84f8 testClass = BlogApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3e3d26ca testClass = BlogApplicationTests, locations = '{}', classes = '{class com.shaneen.blog.blog.BlogApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1873644c, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@596ee60, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@18185353, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@43032373], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+11:17:39.676 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.0.RELEASE)
+
+2019-10-24 11:17:40.220  INFO 19576 --- [    Test worker] c.s.blog.blog.BlogApplicationTests       : Starting BlogApplicationTests on DESKTOP-QF5KSMP with PID 19576 (started by Owner in C:\Users\Owner\Documents\LC101\blog)
+2019-10-24 11:17:40.222  INFO 19576 --- [    Test worker] c.s.blog.blog.BlogApplicationTests       : No active profile set, falling back to default profiles: default
+2019-10-24 11:17:41.711  INFO 19576 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-24 11:17:41.716  INFO 19576 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-24 11:17:41.757  INFO 19576 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2019-10-24 11:17:43.340  INFO 19576 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 11:17:43.471  INFO 19576 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-10-24 11:17:44.527  INFO 19576 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2be77ce5-f674-4cd3-9f47-bab6c13d67ef
+
+2019-10-24 11:17:44.822  INFO 19576 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d3af4f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@3a586fa1, org.springframework.security.web.header.HeaderWriterFilter@27e5ea3, org.springframework.security.web.csrf.CsrfFilter@7d66a298, org.springframework.security.web.authentication.logout.LogoutFilter@610004b2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@45dee59b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@36873c9d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7a16a75c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3bf66354, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14843ad1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52dda37d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44efc6e, org.springframework.security.web.session.SessionManagementFilter@60d5e195, org.springframework.security.web.access.ExceptionTranslationFilter@3bdd3c36, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@396cbe1]
+2019-10-24 11:17:45.024  INFO 19576 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-24 11:17:45.113  INFO 19576 --- [    Test worker] c.s.blog.blog.BlogApplicationTests       : Started BlogApplicationTests in 5.421 seconds (JVM running for 7.896)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Oct 24, 2019, 11:17:45 AM</p>
+</div>
+</div>
+</body>
+</html>
